@@ -15,7 +15,7 @@
             <v-btn
               color="primary"
               target="_blank"
-              href="https://github.com/TalhaK15/asc-bot"
+              href="https://github.com/TalhaK15/covid-19"
             >
               Go to the Github Repository
             </v-btn>
