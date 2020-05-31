@@ -231,12 +231,6 @@ export default {
     )
 
     return { total: total.data, items: country.data }
-
-    /*    return axios
-      .get(`https://disease.sh/v2/all?yesterday=false&allowNull=false`, config)
-      .then(res => {
-        return { total: res.data }
-      }) */
   },
   data() {
     return {
