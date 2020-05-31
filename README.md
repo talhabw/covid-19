@@ -1,6 +1,6 @@
-# covid-cases
+# Covid-19 Cases
 
-> My astonishing Nuxt.js project
+> Simple app for follow covid19 cases
 
 ## Build Setup
 
