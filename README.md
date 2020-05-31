@@ -2,6 +2,8 @@
 
 > Simple app for follow covid19 cases
 
+>Live Demo : https://talhak15-covid19.netlify.app
+
 ## Build Setup
 
 ```bash
