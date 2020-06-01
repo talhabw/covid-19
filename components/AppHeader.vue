@@ -35,6 +35,8 @@
         v-model="theme"
         hide-details
         color="white"
+        :prepend-icon="theme === false ? 'brightness_3' : 'wb_sunny'"
+        :label="theme === false ? 'Dark Mode' : 'Light Mode'"
         @change="changeTheme"
       ></v-checkbox>
     </v-app-bar>
