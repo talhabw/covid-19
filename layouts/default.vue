@@ -7,7 +7,7 @@
     </v-content>
     <!-- ------------------------- -->
     <v-footer fixed app>
-      <span>&copy; AppName&trade; {{ new Date().getFullYear() }}</span>
+      <span>&copy; Talha Karasu&trade; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
 </template>
