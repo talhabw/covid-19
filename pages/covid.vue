@@ -96,7 +96,7 @@
       :sort-desc="sortDesc"
       hide-default-footer
     >
-      <template v-if="isMobile" v-slot:header>
+      <template v-show="isMobile" v-slot:header>
         <v-toolbar color="indigod3" class="mb-1" dark>
           <template>
             <v-select
