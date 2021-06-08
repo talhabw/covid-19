@@ -31,10 +31,7 @@
     >
       <v-app-bar-nav-icon @click="drawer = !drawer" />
       <v-spacer />
-      <v-btn @click="changeTheme">
-        <v-icon v-show="!theme" color="white">mdi-brightness-3</v-icon>
-        <v-icon v-show="theme" color="white">mdi-wb-sunny</v-icon>
-      </v-btn>
+      <v-icon color="white" @click="changeTheme">mdi-theme-light-dark </v-icon>
     </v-app-bar>
   </div>
 </template>
