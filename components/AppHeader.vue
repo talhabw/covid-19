@@ -31,14 +31,10 @@
     >
       <v-app-bar-nav-icon @click="drawer = !drawer" />
       <v-spacer />
-      <v-checkbox
-        v-model="theme"
-        hide-details
-        color="white"
-        :prepend-icon="theme === false ? 'brightness_3' : 'wb_sunny'"
-        :label="theme === false ? 'Dark Mode' : 'Light Mode'"
-        @change="changeTheme"
-      ></v-checkbox>
+      <v-btn @click="changeTheme">
+        <v-icon v-show="!theme" color="white">mdi-brightness-3</v-icon>
+        <v-icon v-show="theme" color="white">mdi-wb-sunny</v-icon>
+      </v-btn>
     </v-app-bar>
   </div>
 </template>
@@ -66,6 +62,7 @@ export default {
   },
   methods: {
     changeTheme() {
+      this.theme = !this.theme
       this.$vuetify.theme.dark = this.theme
     }
   }
