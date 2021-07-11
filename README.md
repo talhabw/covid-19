@@ -2,7 +2,7 @@
 
 > Simple app for follow covid19 cases
 
->Live Demo : https://talhabw-covid19.netlify.app
+>Live Demo : https://talhabw-covid19.vercel.app/
 
 ## Build Setup
 
